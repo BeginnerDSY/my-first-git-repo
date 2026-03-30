@@ -1,0 +1,15 @@
+# 屏蔽数据集文件夹
+data/
+datasets/
+*.csv
+*.npy
+*.mat
+
+# 屏蔽模型权重
+*.pth
+*.pt
+checkpoints/
+
+# 屏蔽 Python 缓存
+__pycache__/
+.ipynb_checkpoints/
